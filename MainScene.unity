@@ -1,0 +1,10 @@
+- MainScene
+  - Ground (Plane)
+  - Player (GameObject)
+    - Position: (10, 0, 10)
+    - Attached script: PlayerController.cs
+    - Prefab: Player.prefab
+  - NPC (GameObject)
+    - Position: (0, 0, 0)
+    - Attached script: NPCChaseAI.cs (with parameters set for player reference and distance d)
+    - Prefab: NPC.prefab

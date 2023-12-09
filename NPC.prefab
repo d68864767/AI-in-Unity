@@ -1,0 +1,35 @@
+// Pseudo-code representation of NPC.prefab content
+GameObject "NPC"
+{
+    Components:
+    {
+        Transform
+        {
+            Position: (0, 0, 0)
+            Rotation: (0, 0, 0)
+            Scale: (1, 1, 1)
+        }
+        Rigidbody
+        {
+            // Rigidbody properties
+        }
+        Collider
+        {
+            // Collider properties
+        }
+        MeshRenderer
+        {
+            // MeshRenderer properties
+        }
+        MeshFilter
+        {
+            // MeshFilter properties
+        }
+        NPCChaseAI
+        {
+            playerTransform: (Reference to Player's Transform)
+            chaseDistance: 15f
+            moveSpeed: 5f
+        }
+    }
+}
